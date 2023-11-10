@@ -8,7 +8,17 @@
 // update and say "Log out". If a user clicks on the button again, its text
 // should switch from "Log Out" to "Log In".
 
-/// TODO: replace this with your code
+const logInButton = document.querySelector('#auth')
+
+const LogIn = (evt) => {
+    if (evt.target.innerText === 'Log in') {
+        evt.target.innerText = 'Log out'
+    } else {
+        evt.target.innerText = 'Log in'
+    }
+}
+
+logInButton.addEventListener('click', LogIn)
 
 // Send an alert
 //
@@ -17,7 +27,7 @@
 // A user should be able to enter what they want the alert to say in the
 // text box. Then, they can submit the form to trigger the alert.
 
-/// TODO: replace this with your code
+// code here
 
 // Add an item
 //
