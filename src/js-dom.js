@@ -27,7 +27,11 @@ logInButton.addEventListener('click', LogIn)
 // A user should be able to enter what they want the alert to say in the
 // text box. Then, they can submit the form to trigger the alert.
 
-// code here
+const sendAlert = document.querySelector('#send-alert')
+
+const trigAlert = (evt) => {
+    
+}
 
 // Add an item
 //
